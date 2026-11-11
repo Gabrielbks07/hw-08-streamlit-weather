@@ -7,11 +7,11 @@ also logged to a local SQLite database.
 
 ## Run locally
 
-From the `python_hu5` repository root:
+From this repository's root:
 
 ```powershell
-python -m pip install -r homeworks/bakacsygabor/hw_08_streamlit/requirements.txt
-python -m streamlit run homeworks/bakacsygabor/hw_08_streamlit/weather_app.py
+python -m pip install -r requirements.txt
+python -m streamlit run weather_app.py
 ```
 
 Open the local URL shown by Streamlit, enter a city, and select **Show weather**.
